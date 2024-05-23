@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Booking Page</title>
+    <link rel="stylesheet" type="text/css" href="ques1.css">
+</head>
+<body>
+
+    <div id="appointment-form" class="appointment-form">
+        <h2>Book a Dog Appointment</h2>
+        <form class="app-form" method="post" action="BookAppointmentServlet">
+			
+			<label for="customer_name">Enter your name:</label>
+            <input type="text" id="customer_name" name="customer_name">
+
+            <label for="phone_number">Enter your Mobile Number:</label>
+            <input type="text" id="phone_number" name="phone_number">
+            
+            <label for="dog_breed">Enter Dog Breed:</label>
+            <input type="text" id="dog_breed" name="dog_breed" placeholder="E.g., Golden Retriever">
+
+            <label for="dog_age">Enter Dog Age:</label>
+            <input type="text" id="dog_age" name="dog_age">
+
+            <label for="no_of_dogs">Enter no. of Dogs:</label>
+            <input type="text" id="no_of_dogs" name="no_of_dogs">
+
+            <label for="service">Choose a Service:</label>
+            <select name="service" id="service">
+                <option value="Boarding">Pet Boarding</option>
+                <option value="Care">Pet Day Care</option>
+                <option value="Sitting">Pet Sitting</option>
+                <option value="Walking">Pet Walking</option>
+                <option value="Grooming">Pet Grooming</option>
+                <option value="Training">Pet Training</option>
+            </select>
+
+            <label for="appointment_date" class="date">Select Date of Appointment:</label>
+            <input type="date" id="appointment_date" name="appointment_date">
+
+            <label for="appointment_time">Select Time of Appointment:</label>
+            <input type="time" id="appointment_time" name="appointment_time">
+
+            <label for="nights_required">No. of nights required:</label>
+            <input type="text" id="nights_required" name="nights_required">
+
+            <label>Do you need pet pickup services?</label>
+            <div class="pickup-radio radio-group">
+                <input class="radio" type="radio" id="pickup_yes" name="pickup_services" value="Yes">
+                <label for="pickup_yes">Yes</label>
+
+                <input class="radio" type="radio" id="pickup_no" name="pickup_services" value="No">
+                <label for="pickup_no">No</label>
+            </div>
+
+            <button id="bookSubmitBtn">Submit</button>
+        </form>
+    </div>
+
+    <script src="ques1.js"></script>
+    
+</body>
+
+</html>

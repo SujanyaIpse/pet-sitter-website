@@ -1,0 +1,80 @@
+/* first page */
+
+.page-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.dog-img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .dog-img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 180px;
+        width: 210px;
+    }
+
+    .page-title{
+        font-size: 20px;
+    }
+
+    .title-description{
+        font-size: 15px;
+        color: grey;
+    }
+}
+
+@media (min-width: 768px) {
+    .dog-img {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        height: 230px;
+        width: 260px;
+    }
+
+    .page-title{
+        font-size: 30px;
+    }
+
+    .title-description{
+        font-size: 20px;
+        color: grey;
+    }
+}
+
+.start-btn{
+    background-color: #5c4ea3;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    margin-top: 50px;
+    background-color: #9b88b8;
+}
+
+.main-title{
+    color: #9b88b8;
+    position: absolute;
+    top: 3%;
+    font-family: fangsong;
+}
+
+.btn-container{
+    position: absolute;
+    bottom: 5%;
+}

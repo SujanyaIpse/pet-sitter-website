@@ -1,0 +1,131 @@
+.dog-img{
+    background-image: url("https://paradepets.com/.image/t_share/MTkxMzY1Nzg4NjczMzIwNTQ2/cutest-dog-breeds-jpg.jpg");
+    height: 80vh;
+    width: 94vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+}
+
+.img-sec{
+    height: 20vh;
+    width: 40vw;
+    background-color: white;
+    box-sizing: content-box;
+    padding: 20px;
+}
+
+.bg-container{
+    padding: 40px;
+}
+
+.img-head{
+    color: #9b88b8;
+}
+
+.pet-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+    .abt-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .pet-sitter-img{
+        height: 400px;
+        width: 550px;
+    }
+
+    .page-container{
+        padding: 80px;
+    }
+
+    .card-cont{
+        height: 40vh;
+        width: 20vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .abt-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pet-sitter-img{
+        height: 280px;
+        width: 400px;
+    }
+
+    .page-container{
+        padding: 20px;
+    }
+
+    .card-cont{
+        height: 45vh;
+        width: 30vw;
+    }
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.pet-sitter-btn{
+    background-color: #9b88b8;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 25px;
+}
+
+.pet-boarding{
+    height: 200px;
+    width: 200px;
+}
+
+.card-cont{
+    border: 1px solid grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+.abt-container2{
+    flex-wrap: wrap;
+}
+
+.aligner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.apt-btn{
+    align-self: flex-end;
+}
+
+body{
+    background-image: url("https://www.pawspace.in/wp-content/uploads/2020/02/Untitled-design-2.png");
+    background-size: cover;
+    height: 100vh;
+}
